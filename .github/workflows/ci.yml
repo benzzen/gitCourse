@@ -1,7 +1,9 @@
 name: Demo
+
 on: [push]
+
 jobs:
     build-job:
       runs-on: ubuntu-latest
-      step:
+      steps:
         - run: echo "hello world"
