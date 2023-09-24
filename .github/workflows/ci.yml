@@ -16,7 +16,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - run: echo ${{vars.COMPANY_NAME}}
-        - run: echo ${{env.COMPANY_NAME}}
         - run: echo "host $my-host"
         - run: echo "${{github.actor}}"
     
